@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Poppins;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.grid-main{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.grid-child{
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.news-image{
+  width: 100%;
+}
+
+.news-title{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.news-content{
+  font-size: 16px;
+}
+
+.news-author{
+  font-size: 14px;
+}
+
+.news-date{
+  font-size: 14px;
+}
+
+.space-between{
+  display: flex;
+  justify-content: space-between;
+}
+
+.select-group{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.select{
+  padding: 20px;
+  width: 390px;
+}
+
+.select-box{
+  width: 200px;
+  height: 40px;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  padding: 10px;
+}
+
+.hr{
+  height:2px;
+  width: 100%;
+  color:gray;
+  background-color:gray;
+  margin-bottom: 8px;
+}
+
+.vl {
+  border-left: 3px solid gray;
+  height: 70px;
+}
+
+.selectvl{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 28px;
+}
+
+.text-box{
+  width: 178px;
+  height: 18px;
+  border: 1px solid #e0e0e0;
+  outline: none;
+  padding: 10px;
+}
+
+.say{
+  font-size: 14px;
+}
+
+@media only screen and (max-width:965px) {
+  .grid-main{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.select-group{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+}
+
+@media only screen and (max-width:800px) {
+  .grid-main{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+  }  
+  .select-group{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width:1400px) {
+.select-group{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+}
+
+@media only screen and (max-width:950px) {
+  .select-group{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width:450px) {
+  .select{
+    width: auto;
+  }
+}
+
+
+
